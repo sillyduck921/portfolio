@@ -28,8 +28,9 @@ const Home = () => {
                     <img src="./assets/The Forager Highlight.png" className="highlight-image" />
                     <div className="highlight-text-left">
                         <div className="highlight-text">
-                            <h4>The Forager</h4>
-                            <p>blah blah blah</p>
+                            <h3>The Forager</h3>
+                            <p>The Forager is an environmental zine that celebrates the intersection of environmental themes and literary communications. As Co-Founder and Head of Web Design, I designed and implemented an online publication that showcases student stories and artwork. </p>
+                            <p>Project includes: branding, user experience, and user interface.</p>
                             <NavLink to='/design/the-forager-zine'>
                                 <Button text={"Take a look!"} />
                             </NavLink>
@@ -40,8 +41,9 @@ const Home = () => {
                     <img src="./assets/Bread and Butter Highlight.png" className="highlight-image" />
                     <div className="highlight-text-right">
                         <div className="highlight-text">
-                            <h4>Bread and Butter</h4>
-                            <p>blah blah blah</p>
+                            <h3>Bread and Butter</h3>
+                            <p>Bread and Butter is your local bake shop with an efficient online marketplace to browse for your favorite gourmet breads and butters.</p>
+                            <p>Project includes: branding, user experience, and user interface.</p>
                             <NavLink to='/design/bread-and-butter'>
                                 <Button text={"Take a look!"} />
                             </NavLink>

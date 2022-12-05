@@ -68,12 +68,21 @@ h4 {
   margin: 0;
 }
 
+h5 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
+
 p {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 18px;
   color: #000000;
-  margin-top: 0;
+  margin: 0;
+  line-height: 24px;
 }
 
 .home-text {
@@ -252,6 +261,26 @@ button:hover {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 40px;
+  gap: 30px;
   padding: 50px;
+}
+
+.banner {
+  width: 100%;
+}
+
+.banner-container {
+  position: relative;
+}
+
+.banner-text {
+  position: absolute;
+  top: 240px;
+  right: 70px;
+}
+
+.section-container {
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
 }

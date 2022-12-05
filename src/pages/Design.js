@@ -1,8 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import BreadAndButter from "./BreadAndButter";
-import Heyfood from "./Heyfood";
-import { Routes, Route } from "react-router-dom";
 
 
 const Design = () => {
