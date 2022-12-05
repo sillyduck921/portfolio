@@ -30,12 +30,12 @@ const MailKiosk = () => {
                     <div className="column">
                         <h5>OBSERVATIONS</h5>
                         <ul className="list-wrapper">
-                            <li class="list">All users swiped their ID card instead of typing in their Brown ID</li>
-                            <li class="list">All users used the mail kiosk outside the mailroom instead of the screen interface inside the mailroom</li>
-                            <li class="list">All users selected the “Pick Up Now” option and proceeded into the mailroom</li>
-                            <li class="list">Most users did not have to wait in line to swipe their ID</li>
-                            <li class="list">Some users swiped their ID card up and down multiple times</li>
-                            <li class="list">One user swiped their Brown ID and the search bar was filled with a few dots.
+                            <li className="list">All users swiped their ID card instead of typing in their Brown ID</li>
+                            <li className="list">All users used the mail kiosk outside the mailroom instead of the screen interface inside the mailroom</li>
+                            <li className="list">All users selected the “Pick Up Now” option and proceeded into the mailroom</li>
+                            <li className="list">Most users did not have to wait in line to swipe their ID</li>
+                            <li className="list">Some users swiped their ID card up and down multiple times</li>
+                            <li className="list">One user swiped their Brown ID and the search bar was filled with a few dots.
                                 This was an indication that they did not swipe their ID card properly.
                                 They flipped it over and swiped it again and yet again it did not process.
                                 They walked to the other screen and successfully swiped their ID card</li>
@@ -44,13 +44,13 @@ const MailKiosk = () => {
                     <div className="column">
                         <h5>QUESTIONS</h5>
                         <ol className="list-wrapper">
-                            <li class="list">How would you intuitively go about using the kiosk?</li>
-                            <li class="list">How effective are the instructions posted around the kiosk?</li>
-                            <li class="list">Was anything surprising or did not perform as expected?</li>
-                            <li class="list">Was the interface easy to understand?</li>
-                            <li class="list">What was the one thing you liked the most about the design?</li>
-                            <li class="list">What was the one thing you disliked the most about the design?</li>
-                            <li class="list">If you could change one thing about the design, what would it be?</li>
+                            <li className="list">How would you intuitively go about using the kiosk?</li>
+                            <li className="list">How effective are the instructions posted around the kiosk?</li>
+                            <li className="list">Was anything surprising or did not perform as expected?</li>
+                            <li className="list">Was the interface easy to understand?</li>
+                            <li className="list">What was the one thing you liked the most about the design?</li>
+                            <li className="list">What was the one thing you disliked the most about the design?</li>
+                            <li className="list">If you could change one thing about the design, what would it be?</li>
                         </ol>
                     </div>
                 </div>
@@ -58,15 +58,15 @@ const MailKiosk = () => {
                     <div className="column">
                         <h5>USER RESPONSES</h5>
                         <ul className="list-wrapper">
-                            <li class="list">Users generally agreed that the kiosk and screen interface is easy to use and understand. They thought the
+                            <li className="list">Users generally agreed that the kiosk and screen interface is easy to use and understand. They thought the
                                 instructions coupled with seeing how other people use the kiosk give new users enough information to be able
                                 to successfully navigate the interface</li>
-                            <li class="list">Users are generally frustrated that the swiping mechanism is glitchy and does not always work. Specifically, swiping
+                            <li className="list">Users are generally frustrated that the swiping mechanism is glitchy and does not always work. Specifically, swiping
                                 their ID card sometimes does not process correctly or takes a long time to read the card</li>
-                            <li class="list">To improve the kiosk, one user suggested that it would be helpful to improve the functionality of the screens or replace
+                            <li className="list">To improve the kiosk, one user suggested that it would be helpful to improve the functionality of the screens or replace
                                 the card readers with newer ones. They agreed that swiping your ID card to receive your mail is easy, but the machines
                                 often do not perform at their best</li>
-                            <li class="list">To improve the kiosk, another user suggested that it would be helpful to know your place in the pick-up queue to understand
+                            <li className="list">To improve the kiosk, another user suggested that it would be helpful to know your place in the pick-up queue to understand
                                 how long it will take for mail services to say your name. This would perhaps guide them to choose the “Cancel” option to
                                 pick up later if they were in a hurry and did not have time to wait for their mail</li>
                         </ul>
