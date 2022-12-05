@@ -7,7 +7,7 @@ const Home = () => {
         <>
             <div className="intro-container">
                 <div className="home-text">
-                    <h2>
+                    <h2 style={{ margin: 50 }}>
                         Hey there — I’m a designer & illustrator based in Providence, RI who integrates a passion for sustainability into digital storytelling and design.
                     </h2>
                 </div>
