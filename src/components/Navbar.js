@@ -6,19 +6,19 @@ function Navbar() {
   return (
     <nav className="nav-container">
       <div>
-        <NavLink to="/" className="link" onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>HOME</NavLink>
+        <NavLink to="/portfolio" className="link" onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>HOME</NavLink>
       </div>
       <div>
-        <NavLink to="/design" className="link" onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>DESIGN</NavLink>
+        <NavLink to="/portfolio/design" className="link" onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>DESIGN</NavLink>
       </div>
       <div>
-        <NavLink to="/illustration" className="link" onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>ILLUSTRATION</NavLink>
+        <NavLink to="/portfolio/illustration" className="link" onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>ILLUSTRATION</NavLink>
       </div>
       <div>
-        <NavLink to="/about" className="link" onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>ABOUT</NavLink>
+        <NavLink to="/portfolio/about" className="link" onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>ABOUT</NavLink>
       </div>
       <div>
-        <NavLink to="/resume" className="link" onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>RESUME</NavLink>
+        <NavLink to="/portfolio/resume" className="link" onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>RESUME</NavLink>
       </div>
     </nav>
   );
