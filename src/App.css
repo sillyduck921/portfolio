@@ -33,6 +33,28 @@
   color: #000000;
 }
 
+.link-home {
+  color: #ACACAC;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-size: 16px;
+}
+
+.link-home:hover {
+  color: #716F6F;
+}
+
+.link-home-active {
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-size: 16px;
+}
+
 h1 {
   color: #000000;
   font-family: 'Raleway', sans-serif;

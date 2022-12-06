@@ -1,24 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import '../App.css';
 
 function Navbar() {
+  const [isActive, setIsActive] = useState(true);
   return (
     <nav className="nav-container">
       <div>
-        <NavLink to="/" className="link" onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>HOME</NavLink>
+        <NavLink to="/portfolio" className={isActive ? "link-home-active" : "link-home"} onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+          setIsActive(true);
+          }} >HOME</NavLink>
       </div>
       <div>
-        <NavLink to="/design" className="link" onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>DESIGN</NavLink>
+        <NavLink to="/portfolio/design" className="link" onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+          setIsActive(false);
+          }}>DESIGN</NavLink>
       </div>
       <div>
-        <NavLink to="/illustration" className="link" onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>ILLUSTRATION</NavLink>
+        <NavLink to="/portfolio/illustration" className="link" onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+          setIsActive(false);
+          }}>ILLUSTRATION</NavLink>
       </div>
       <div>
-        <NavLink to="/about" className="link" onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>ABOUT</NavLink>
+        <NavLink to="/portfolio/about" className="link" onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+          setIsActive(false);
+          }}>ABOUT</NavLink>
       </div>
       <div>
-        <NavLink to="/resume" className="link" onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>RESUME</NavLink>
+        <NavLink to="/portfolio/resume" className="link" onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+          setIsActive(false);
+          }}>RESUME</NavLink>
       </div>
     </nav>
   );

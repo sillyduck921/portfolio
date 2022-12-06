@@ -31,7 +31,7 @@ const Home = () => {
                             <h3>The Forager</h3>
                             <p>The Forager is an environmental zine that celebrates the intersection of environmental themes and literary communications. As Co-Founder and Head of Web Design, I designed and implemented an online publication that showcases student stories and artwork. </p>
                             <p>Project includes: branding, user experience, and user interface.</p>
-                            <NavLink to='/design/the-forager-zine' onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>
+                            <NavLink to='/portfolio/design/the-forager-zine' onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>
                                 <Button text={"Take a look!"} />
                             </NavLink>
                         </div>
@@ -44,7 +44,7 @@ const Home = () => {
                             <h3>Bread and Butter</h3>
                             <p>Bread and Butter is your local bake shop with an efficient online marketplace to browse for your favorite gourmet breads and butters.</p>
                             <p>Project includes: branding, user experience, and user interface.</p>
-                            <NavLink to='/design/bread-and-butter' onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>
+                            <NavLink to='/portfolio/design/bread-and-butter' onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>
                                 <Button text={"Take a look!"} />
                             </NavLink>
                         </div>
