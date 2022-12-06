@@ -361,3 +361,65 @@ button:hover {
   gap: 40px;
   background-color:#E27D60;
 }
+
+.style-guide-image {
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+}
+
+.iframe-desktop {
+  width: 80%;
+  height: 700px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
+.iframe-tablet {
+  width: 50%;
+  height: 700px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
+.iframe-mobile {
+  width: 40%;
+  height: 700px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
+.gcb-image-desktop {
+  width: 90%;
+  border-radius: 15px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+}
+
+.gcb-image-tablet {
+  width: 70%;
+  border-radius: 20px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+}
+
+.gcb-image-mobile {
+  width: 50%;
+  border-radius: 30px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+}
+
+.link-white {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0;
+  line-height: 24px;
+}
+
+.link-white:hover {
+  color: #716F6F;
+}

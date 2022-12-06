@@ -68,7 +68,8 @@ const GradCenterBar = () => {
             </div>
             <div className="section-container">
                 <h2>Low-Fi Prototypes</h2>
-                <div className="row" style={{ gap: 50}}>
+                <p>I designed and sketched lo-fi prototypes for a desktop, tablet, and mobil device, incorporating solutions to the usability and accessibility issues of the original website.</p>
+                <div className="row" style={{ gap: 50 }}>
                     <div className="column">
                         <h6>DESKTOP</h6>
                         <img src={'/assets/Desktop.jpg'} className="lo-fi-image" />
@@ -81,6 +82,37 @@ const GradCenterBar = () => {
                         <h6>MOBILE</h6>
                         <img src={'/assets/Mobile.jpg'} className="lo-fi-image" />
                     </div>
+                </div>
+            </div>
+            <div className="burnt-orange-section-container" style={{ alignItems: "center" }}>
+                <h2>Style Guide</h2>
+                <img src={'/assets/Style Guide.png'} className="style-guide-image" />
+            </div>
+            <div className="section-container">
+                <h2>Hi-Fi Prototypes</h2>
+                <div className="column" style={{ alignItems: "center", gap: 40 }}>
+                    <h6>DESKTOP</h6>
+                    <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FCmQvWi369IbLxw6ky7ALiz%2FGCB-Desktop-Hi-Fi-Prototype%3Fnode-id%3D1%253A2%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A2" title="Desktop" className="iframe-desktop" allowfullscreen></iframe>
+                    <h6>TABLET</h6>
+                    <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FuGanliOm4YBobtt7OwW5oD%2FGCB-Tablet-Hi-Fi-Prototype%3Fnode-id%3D1%253A3%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A3" title="Tablet" className="iframe-tablet" allowfullscreen></iframe>
+                    <h6>MOBILE</h6>
+                    <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FNqsAxlPHeJlICVihDlcS72%2FUntitled%3Fnode-id%3D1%253A2%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A2" title="Mobile" className="iframe-mobile" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div className="burnt-orange-section-container">
+                <h2>Redesign</h2>
+                <p>The <a href="https://sillyduck921.github.io/gcb-redesign/" target={"_blank"} className="link-white" >redesigned GCB website</a> incorporates solutions to usability and accessibility issues while being a responsive design for numerous device sizes.</p>
+                <div className="column" style={{ alignItems: "center"}}>
+                    <h5>DESKTOP</h5>
+                    <img src={'/assets/GCB Final Website.png'} className="gcb-image-desktop" />
+                </div>
+                <div className="column" style={{ alignItems: "center"}}>
+                    <h5>TABLET</h5>
+                    <img src={'/assets/GCB Final Website Tablet.png'} className="gcb-image-tablet" />
+                </div>
+                <div className="column" style={{ alignItems: "center"}}>
+                    <h5>MOBILE</h5>
+                    <img src={'/assets/GCB Final Website Mobile.png'} className="gcb-image-mobile" />
                 </div>
             </div>
         </>
