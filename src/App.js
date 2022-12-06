@@ -19,15 +19,15 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route exact path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/design' element={<Design />} />
-        <Route path='/illustration' element={<Illustration />} />
-        <Route path='/design/bread-and-butter' element={<BreadAndButter />} />
-        <Route path='/design/heyfood' element={<Heyfood />} />
-        <Route path='/design/the-forager-zine' element={<TheForager />} />
-        <Route path='/design/grad-center-bar' element={<GradCenterBar />} />
-        <Route path='/design/brown-mail-kiosk' element={<MailKiosk />} />
+        <Route exact path='/portfolio' element={<Home />} />
+        <Route path='/portfolio/about' element={<About />} />
+        <Route path='/portfolio/design' element={<Design />} />
+        <Route path='/portfolio/illustration' element={<Illustration />} />
+        <Route path='/portfolio/design/bread-and-butter' element={<BreadAndButter />} />
+        <Route path='/portfolio/design/heyfood' element={<Heyfood />} />
+        <Route path='/portfolio/design/the-forager-zine' element={<TheForager />} />
+        <Route path='/portfolio/design/grad-center-bar' element={<GradCenterBar />} />
+        <Route path='/portfolio/design/brown-mail-kiosk' element={<MailKiosk />} />
       </Routes>
       <Footer />
     </Router>
