@@ -448,3 +448,44 @@ button:hover {
   border-radius: 10px;
   box-shadow: 5px 5px 20px #ACACAC;
 }
+
+.heyfood-app-image {
+  width: 250px;
+  border-radius: 20px;
+  margin-right: 100px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+}
+
+.teal-section-container {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 40px;
+  background-color: #41B3A3;
+}
+
+.heyfood-sketch-image {
+  width: 90%;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+}
+
+.heyfood-lofi-image {
+  width: 90%;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.heyfood-hifi-image {
+  width: 90%;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 60px;
+}
+
+.iframe-heyfood {
+  width: 50%;
+  height: 1000px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border: none;
+}
