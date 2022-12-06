@@ -423,3 +423,28 @@ button:hover {
 .link-white:hover {
   color: #716F6F;
 }
+
+.blue-section-container {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 40px;
+  background-color: #89D5D2;
+}
+
+.forager {
+  width: 60%;
+  height: 70%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px #ACACAC;
+  align-self: center;
+}
+
+.forager-image {
+  width: 40%;
+  height: 40%;
+  margin: 40px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px #ACACAC;
+}
