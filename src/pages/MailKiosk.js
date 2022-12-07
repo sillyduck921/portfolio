@@ -4,7 +4,7 @@ const MailKiosk = () => {
     return (
         <>
             <div className="banner-container">
-                <img src="/assets/Mail Kiosk Banner.png" className="banner" />
+                <img src={process.env.PUBLIC_URL + "/assets/Mail Kiosk Banner.png"} className="banner" />
                 <div className="banner-text">
                     <h3>Brown University</h3>
                     <h3>Mail Pick-Up Kiosk</h3>
@@ -13,8 +13,8 @@ const MailKiosk = () => {
             </div>
             <div className="section-container">
                 <div className="row">
-                    <img src="/assets/Mail Kiosk Sketch.png" style={{ width: "45%" }} />
-                    <img src="/assets/Mail Swipe Sketch.png" style={{ width: "60%" }} />
+                    <img src={process.env.PUBLIC_URL + "/assets/Mail Kiosk Sketch.png"} style={{ width: "45%" }} />
+                    <img src={process.env.PUBLIC_URL + "/assets/Mail Swipe Sketch.png"} style={{ width: "60%" }} />
                 </div>
                 <h2>About</h2>
                 <p>The Brown University Mail Pick-Up Kiosk allows students to easily pick up their packages and
@@ -78,14 +78,14 @@ const MailKiosk = () => {
                 <p>With the user feedback collected, I created two personas representing how someone might feel, think, say, and do while interacting with the mail kiosk.</p>
                 <div className="row">
                     <div className="column" style={{ padding: 25 }}>
-                    <img src="/assets/Personas + Storyboards-3.jpg" className="personas-image" />
+                    <img src={process.env.PUBLIC_URL + "/assets/Personas + Storyboards-3.jpg"} className="personas-image" />
                     <p>Suzie has had a long day full of classes and meetings, and she wants to pick up her packages at the mailroom before it closes at 5:00 pm. 
                     After she swipes her Brown ID at the pick-up kiosk, she does not know what her packages are and how long she needs to wait before her name is called. 
                     Many users expressed frustration with the unknown wait time to pick up one’s package, and one user pointed out that it would be helpful to know 
                     more about the content of the packages such that they may make a better-informed decision on whether to pick it up now or later.</p>
                     </div>
                     <div className="column" style={{ padding: 25 }}>
-                    <img src="/assets/Personas + Storyboards-4.jpg" className="personas-image" />
+                    <img src={process.env.PUBLIC_URL + "/assets/Personas + Storyboards-4.jpg"} className="personas-image" />
                     <p>Sam is excited to pick up his package (a new water bottle to stay hydrated) and strolls into Page-Robinson Hall. Sam struggles with swiping his Brown ID, 
                     as the card reader reads it incorrectly multiple times. He feels bad for holding up the line of people behind him, so he switches to the other screen in 
                     hopes that it will process correctly. Many users pointed out the glitchiness of the card readers and screen interfaces, as their IDs often do not process 
@@ -97,8 +97,8 @@ const MailKiosk = () => {
                 <h2 style={{ marginBottom: 40 }}>Storyboard</h2>
                 <p style={{ marginBottom: 40 }}>I created a storyboard of the situation that Sam, one of the personas, finds himself in.</p>
                 <div className="column" style={{ alignItems: "center" }}>
-                    <img src="/assets/Personas + Storyboards-5.jpg" className="storyboard-image" />
-                    <img src="/assets/Personas + Storyboards-6.jpg" className="storyboard-image" />
+                    <img src={process.env.PUBLIC_URL + "/assets/Personas + Storyboards-5.jpg"} className="storyboard-image" />
+                    <img src={process.env.PUBLIC_URL + "/assets/Personas + Storyboards-6.jpg"} className="storyboard-image" />
                 </div>
             </div>
         </>
