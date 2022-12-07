@@ -1,8 +1,15 @@
 import React from "react";
+import ScrollToTop from "../components/ScrollToTop";
+import { motion } from "framer-motion";
 
 const Heyfood = () => {
   return (
-    <>
+    <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.4 }}
+        >
       <div className="banner-container">
         <img src={process.env.PUBLIC_URL + "/assets/Heyfood Banner.png"} className="banner" />
         <div className="banner-text" style={{ right: 90, top: 270 }}>
@@ -110,7 +117,8 @@ const Heyfood = () => {
         <p>Click through the Heyfood prototype made on Figma!</p>
         <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDsgM32mCliKNCXyptgqzoF%2FHi-Fi%3Fnode-id%3D1%253A3%26starting-point-node-id%3D1%253A3" allowfullscreen title="Heyfood" className="iframe-heyfood"></iframe>
       </div>
-    </>
+      <ScrollToTop />
+    </motion.div>
   );
 };
 

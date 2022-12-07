@@ -1,8 +1,15 @@
 import React from "react";
+import ScrollToTop from "../components/ScrollToTop";
+import { motion } from "framer-motion";
 
 const TheForager = () => {
   return (
-    <>
+    <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 1 }}
+            transition={{ duration: 0.4 }}
+        >
       <div className="banner-container">
         <img src={process.env.PUBLIC_URL + "/assets/Forager Banner.png"} className="banner" />
         <div className="banner-text" style={{ right: 80, top: 250 }}>
@@ -64,7 +71,8 @@ const TheForager = () => {
         <img src={process.env.PUBLIC_URL + "/assets/Forager 6.png"} className="forager-image"/>
         </div>
       </div>
-    </>
+      <ScrollToTop />
+    </motion.div>
   );
 };
 

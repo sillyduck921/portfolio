@@ -198,10 +198,34 @@ button {
   font-weight: 600;
   font-size: 20px;
   color: #000000;
+  transition: all 200ms ease-in-out 0ms;
 }
 
 button:hover {
   background-color: #000000;
+  color: #FFFFFF;
+  cursor: grab;
+  transition: all 200ms ease-in-out 0ms;
+}
+
+.scroll-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  background-color: white;
+  border: 2px solid #acacac;
+  border-radius: 100px;
+  padding: 10px 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #acacac;
+}
+
+.scroll-button:hover {
+  background-color: #acacac;
   color: #FFFFFF;
   cursor: grab;
 }
@@ -218,11 +242,13 @@ button:hover {
 .cover-image {
   width: 600px;
   height: 450px;
+  border-radius: 10px;
+  transition: all 300ms ease-in-out 0ms;
 }
 
 .cover-image:hover {
-  opacity: 85%;
-  transition: opacity 200ms ease;
+  transform: rotate(2deg);
+  transition: all 300ms ease-in-out 0ms;
 }
 
 .content-container {
@@ -252,11 +278,11 @@ button:hover {
 
 .highlight-text-right {
   position: absolute;
-  width: 500px;
+  width: 700px;
   height: 500px;
   background-color: #FFFFFF;
   top: 205px;
-  left: 240px;
+  left: 100px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -264,25 +290,25 @@ button:hover {
 
 .highlight-text-left {
   position: absolute;
-  width: 500px;
+  width: 700px;
   height: 500px;
   background-color: #FFFFFF;
   top: 205px;
-  right: 240px;
+  right: 100px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
 .highlight-card-right {
-  padding: 120px 160px;
+  padding: 120px 110px;
   position: relative;
   display: flex;
   justify-content: flex-start;
 }
 
 .highlight-card-left {
-  padding: 120px 160px;
+  padding: 120px 110px;
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -510,4 +536,11 @@ button:hover {
   border-radius: 10px;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
   border: none;
+}
+
+.scroll-container {
+  display: flex;
+  padding: 40px 80px;
+  align-items: center;
+  justify-content: flex-end;
 }

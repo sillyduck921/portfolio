@@ -1,8 +1,15 @@
 import React from "react";
+import ScrollToTop from "../components/ScrollToTop";
+import { motion } from "framer-motion";
 
 const GradCenterBar = () => {
     return (
-        <>
+        <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.4 }}
+        >
             <div className="banner-container">
                 <img src={process.env.PUBLIC_URL + "/assets/GCB Banner.png"} className="banner" />
                 <div className="banner-text" style={{ right: 150, top: 280 }}>
@@ -115,7 +122,8 @@ const GradCenterBar = () => {
                     <img src={process.env.PUBLIC_URL + "/assets/GCB Final Website Mobile.png"} className="gcb-image-mobile" />
                 </div>
             </div>
-        </>
+            <ScrollToTop />
+        </motion.div>
     );
 };
 

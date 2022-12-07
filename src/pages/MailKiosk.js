@@ -1,8 +1,15 @@
 import React from "react";
+import ScrollToTop from "../components/ScrollToTop";
+import { motion } from "framer-motion";
 
 const MailKiosk = () => {
     return (
-        <>
+        <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.4 }}
+        >
             <div className="banner-container">
                 <img src={process.env.PUBLIC_URL + "/assets/Mail Kiosk Banner.png"} className="banner" />
                 <div className="banner-text">
@@ -101,7 +108,8 @@ const MailKiosk = () => {
                     <img src={process.env.PUBLIC_URL + "/assets/Personas + Storyboards-6.jpg"} className="storyboard-image" />
                 </div>
             </div>
-        </>
+            <ScrollToTop />
+        </motion.div>
     );
 };
 

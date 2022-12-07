@@ -1,9 +1,11 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import '../App.css';
 
 function Navbar() {
-  const [isActive, setIsActive] = useState(true);
+  const param = useParams();
+  const [isActive, setIsActive] = useState((param === "porfolio") ? true : false);
+
   return (
     <nav className="nav-container">
       <div>
