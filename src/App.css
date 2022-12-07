@@ -416,30 +416,6 @@ button:hover {
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
 }
 
-.iframe-desktop {
-  width: 80%;
-  height: 700px;
-  border-radius: 10px;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-  border: none;
-}
-
-.iframe-tablet {
-  width: 50%;
-  height: 700px;
-  border-radius: 10px;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-  border: none;
-}
-
-.iframe-mobile {
-  width: 40%;
-  height: 700px;
-  border-radius: 10px;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-  border: none;
-}
-
 .gcb-image-desktop {
   width: 530px;
   border-radius: 10px;
@@ -576,4 +552,8 @@ button:hover {
 
 .heyfood-gif {
   width: 300px;
+}
+
+.masonry {
+  padding: 80px;
 }
