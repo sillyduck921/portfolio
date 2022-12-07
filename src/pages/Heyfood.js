@@ -4,7 +4,7 @@ const Heyfood = () => {
   return (
     <>
       <div className="banner-container">
-        <img src={'/assets/Heyfood Banner.png'} className="banner" />
+        <img src="../assets/Heyfood Banner.png" className="banner" />
         <div className="banner-text" style={{ right: 90, top: 270 }}>
           <h3>Heyfood</h3>
           <h5>BRANDING, UX, UI & USER TESTING</h5>
@@ -20,7 +20,7 @@ const Heyfood = () => {
             </p>
             <p style={{ width: 600 }}>To understand the process of design (brainstorming, prototyping, critiquing, and user testing), my group and I designed Heyfood's product as a mobile app.</p>
           </div>
-          <img src={'/assets/Heyfood App.png'} className="heyfood-app-image" />
+          <img src="../assets/Heyfood App.png" className="heyfood-app-image" />
         </div>
       </div>
       <div className="teal-section-container">
@@ -30,30 +30,30 @@ const Heyfood = () => {
         <div className="row">
           <div className="column">
             <h5>HOME</h5>
-            <img src={'/assets/Heyfood Sketch 1.png'} className="heyfood-sketch-image" />
+            <img src="../assets/Heyfood Sketch 1.png" className="heyfood-sketch-image" />
           </div>
           <div className="column">
             <h5>ORDER</h5>
-            <img src={'/assets/Heyfood Sketch 2.png'} className="heyfood-sketch-image" />
+            <img src="../assets/Heyfood Sketch 2.png" className="heyfood-sketch-image" />
           </div>
           <div className="column">
             <h5>CHECKOUT</h5>
-            <img src={'/assets/Heyfood Sketch 3.png'} className="heyfood-sketch-image" />
+            <img src="../assets/Heyfood Sketch 3.png" className="heyfood-sketch-image" />
           </div>
         </div>
         <h4 style={{ alignSelf: "center", marginTop: 80 }}>SKETCH 2</h4>
         <div className="row">
           <div className="column">
             <h5>HOME</h5>
-            <img src={'/assets/Heyfood Sketch 4.png'} className="heyfood-sketch-image" />
+            <img src="../assets/Heyfood Sketch 4.png" className="heyfood-sketch-image" />
           </div>
           <div className="column">
             <h5>ORDER</h5>
-            <img src={'/assets/Heyfood Sketch 5.png'} className="heyfood-sketch-image" />
+            <img src="../assets/Heyfood Sketch 5.png" className="heyfood-sketch-image" />
           </div>
           <div className="column">
             <h5>CHECKOUT</h5>
-            <img src={'/assets/Heyfood Sketch 6.png'} className="heyfood-sketch-image" />
+            <img src="../assets/Heyfood Sketch 6.png" className="heyfood-sketch-image" />
           </div>
         </div>
       </div>
@@ -62,15 +62,15 @@ const Heyfood = () => {
         <div className="row">
           <div className="column">
             <h6>HOME</h6>
-            <img src={'/assets/Home Lofi.png'} className="heyfood-lofi-image" />
+            <img src="../assets/Home Lofi.png" className="heyfood-lofi-image" />
           </div>
           <div className="column">
             <h6>ORDER</h6>
-            <img src={'/assets/Order Lofi.png'} className="heyfood-lofi-image" />
+            <img src="../assets/Order Lofi.png" className="heyfood-lofi-image" />
           </div>
           <div className="column">
             <h6>CHECKOUT</h6>
-            <img src={'/assets/Checkout Lofi.png'} className="heyfood-lofi-image" />
+            <img src="../assets/Checkout Lofi.png" className="heyfood-lofi-image" />
           </div>
         </div>
       </div>
@@ -79,29 +79,29 @@ const Heyfood = () => {
         <div className="row">
           <div className="column">
             <h5>HOME DELIVERY</h5>
-            <img src={'/assets/Heyfood Home Delivery.png'} className="heyfood-hifi-image" />
+            <img src="../assets/Heyfood Home Delivery.png" className="heyfood-hifi-image" />
           </div>
           <div className="column">
             <h5>HOME PICKUP</h5>
-            <img src={'/assets/Heyfood Home Pickup.png'} className="heyfood-hifi-image" />
+            <img src="../assets/Heyfood Home Pickup.png" className="heyfood-hifi-image" />
           </div>
           <div className="column">
             <h5>ORDER</h5>
-            <img src={'/assets/Heyfood Order.png'} className="heyfood-hifi-image" />
+            <img src="../assets/Heyfood Order.png" className="heyfood-hifi-image" />
           </div>
         </div>
         <div className="row">
           <div className="column">
             <h5>ITEM</h5>
-            <img src={'/assets/Heyfood Item.png'} className="heyfood-hifi-image" />
+            <img src="../assets/Heyfood Item.png" className="heyfood-hifi-image" />
           </div>
           <div className="column">
             <h5>CHECKOUT</h5>
-            <img src={'/assets/Heyfood Checkout.png'} className="heyfood-hifi-image" />
+            <img src="../assets/Heyfood Checkout.png" className="heyfood-hifi-image" />
           </div>
           <div className="column">
             <h5>PAYMENT</h5>
-            <img src={'/assets/Heyfood Payment.png'} className="heyfood-hifi-image" />
+            <img src="../assets/Heyfood Payment.png" className="heyfood-hifi-image" />
           </div>
         </div>
       </div>

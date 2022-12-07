@@ -4,7 +4,7 @@ const TheForager = () => {
   return (
     <>
       <div className="banner-container">
-        <img src={'/assets/Forager Banner.png'} className="banner" />
+        <img src="/assets/Forager Banner.png" className="banner" />
         <div className="banner-text" style={{ right: 80, top: 250 }}>
           <h3>The Forager Zine</h3>
           <h5>UX & UI</h5>
@@ -18,7 +18,7 @@ const TheForager = () => {
             <p>We believe storytelling through various mediums such as journalistic pieces, poems, illustrations, or short stories (and, of course, many more!) is a fundamental pillar of environmentalism and environmental justice. Our intention is to create a welcoming space for those curious and passionate about the environment to share their ideas with the College Hill community.</p>
             <p>I co-founded the club, led the design process of the website, established The Forager's brand, and implemented the online publication.</p>
           </div>
-          <img src={'/assets/Forager About.png'} className="forager" />
+          <img src="/assets/Forager About.png" className="forager" />
         </div>
       </div>
       <div className="blue-section-container">
@@ -56,12 +56,12 @@ const TheForager = () => {
         <h2>Publication</h2>
         <p><a href="https://www.theforagerzine.com/" target={"_blank"} className="link" style={{ letterSpacing: 0, fontSize: 18 }}>The Forager</a> website aims to engage readers by making the website easy to use and accessible.</p>
         <div className="grid">
-        <img src={'/assets/Forager 2.png'} className="forager-image"/>
-        <img src={'/assets/Forager 1.png'} className="forager-image"/>
-        <img src={'/assets/Forager 4.png'} className="forager-image"/>
-        <img src={'/assets/Forager 3.png'} className="forager-image"/>
-        <img src={'/assets/Forager 5.png'} className="forager-image"/>
-        <img src={'/assets/Forager 6.png'} className="forager-image"/>
+        <img src="/assets/Forager 2.png" className="forager-image"/>
+        <img src="/assets/Forager 1.png" className="forager-image"/>
+        <img src="/assets/Forager 4.png" className="forager-image"/>
+        <img src="/assets/Forager 3.png" className="forager-image"/>
+        <img src="/assets/Forager 5.png" className="forager-image"/>
+        <img src="/assets/Forager 6.png" className="forager-image"/>
         </div>
       </div>
     </>

@@ -25,7 +25,7 @@ const Home = () => {
                     HIGHLIGHTS
                 </h1>
                 <div className="highlight-card-right">
-                    <img src="/assets/The Forager Highlight.png" className="highlight-image" />
+                    <img src="../assets/The Forager Highlight.png" className="highlight-image" />
                     <div className="highlight-text-left">
                         <div className="highlight-text">
                             <h3>The Forager</h3>
@@ -38,7 +38,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="highlight-card-left">
-                    <img src="/assets/Bread and Butter Highlight.png" className="highlight-image" />
+                    <img src="../assets/Bread and Butter Highlight.png" className="highlight-image" />
                     <div className="highlight-text-right">
                         <div className="highlight-text">
                             <h3>Bread and Butter</h3>

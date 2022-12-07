@@ -4,7 +4,7 @@ const GradCenterBar = () => {
     return (
         <>
             <div className="banner-container">
-                <img src={'/assets/GCB Banner.png'} className="banner" />
+                <img src="/assets/GCB Banner.png" className="banner" />
                 <div className="banner-text" style={{ right: 150, top: 280 }}>
                     <h3>Grad Center Bar</h3>
                     <h5>UX & UI</h5>
@@ -72,21 +72,21 @@ const GradCenterBar = () => {
                 <div className="row" style={{ gap: 50 }}>
                     <div className="column">
                         <h6>DESKTOP</h6>
-                        <img src={'/assets/Desktop.jpg'} className="lo-fi-image" />
+                        <img src="/assets/Desktop.jpg" className="lo-fi-image" />
                     </div>
                     <div className="column">
                         <h6>TABLET</h6>
-                        <img src={'/assets/Tablet.jpg'} className="lo-fi-image" />
+                        <img src="/assets/Tablet.jpg" className="lo-fi-image" />
                     </div>
                     <div className="column">
                         <h6>MOBILE</h6>
-                        <img src={'/assets/Mobile.jpg'} className="lo-fi-image" />
+                        <img src="/assets/Mobile.jpg" className="lo-fi-image" />
                     </div>
                 </div>
             </div>
             <div className="burnt-orange-section-container" style={{ alignItems: "center" }}>
                 <h2>Style Guide</h2>
-                <img src={'/assets/Style Guide.png'} className="style-guide-image" />
+                <img src="/assets/Style Guide.png" className="style-guide-image" />
             </div>
             <div className="section-container">
                 <h2>Hi-Fi Prototypes</h2>
@@ -104,15 +104,15 @@ const GradCenterBar = () => {
                 <p>The <a href="https://sillyduck921.github.io/gcb-redesign/" target={"_blank"} className="link-white" >redesigned GCB website</a> incorporates solutions to usability and accessibility issues while being a responsive design for numerous device sizes.</p>
                 <div className="column" style={{ alignItems: "center"}}>
                     <h5>DESKTOP</h5>
-                    <img src={'/assets/GCB Final Website.png'} className="gcb-image-desktop" />
+                    <img src="/assets/GCB Final Website.png" className="gcb-image-desktop" />
                 </div>
                 <div className="column" style={{ alignItems: "center"}}>
                     <h5>TABLET</h5>
-                    <img src={'/assets/GCB Final Website Tablet.png'} className="gcb-image-tablet" />
+                    <img src="/assets/GCB Final Website Tablet.png" className="gcb-image-tablet" />
                 </div>
                 <div className="column" style={{ alignItems: "center"}}>
                     <h5>MOBILE</h5>
-                    <img src={'/assets/GCB Final Website Mobile.png'} className="gcb-image-mobile" />
+                    <img src="/assets/GCB Final Website Mobile.png" className="gcb-image-mobile" />
                 </div>
             </div>
         </>
