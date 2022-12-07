@@ -66,7 +66,7 @@ const Heyfood = () => {
       </div>
       <div className="section-container">
         <h2>Lo-Fi Prototypes</h2>
-        <div className="row">
+        <div className="row" style={{ gap: 50 }}>
           <div className="column">
             <h6>HOME</h6>
             <img src={process.env.PUBLIC_URL + "/assets/Home Lofi.png"} className="heyfood-lofi-image" />
@@ -83,7 +83,7 @@ const Heyfood = () => {
       </div>
       <div className="teal-section-container">
         <h2>Hi-Fi Prototypes</h2>
-        <div className="row">
+        <div className="row" style={{ gap: 50 }}>
           <div className="column">
             <h5>HOME DELIVERY</h5>
             <img src={process.env.PUBLIC_URL + "/assets/Heyfood Home Delivery.png"} className="heyfood-hifi-image" />
@@ -97,7 +97,7 @@ const Heyfood = () => {
             <img src={process.env.PUBLIC_URL + "/assets/Heyfood Order.png"} className="heyfood-hifi-image" />
           </div>
         </div>
-        <div className="row">
+        <div className="row" style={{ gap: 50 }}>
           <div className="column">
             <h5>ITEM</h5>
             <img src={process.env.PUBLIC_URL + "/assets/Heyfood Item.png"} className="heyfood-hifi-image" />
@@ -114,8 +114,8 @@ const Heyfood = () => {
       </div>
       <div className="section-container" style={{ alignItems: "center"}}>
         <h2>Iteractive Prototype</h2>
-        <p>Click through the Heyfood prototype made on Figma!</p>
-        <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDsgM32mCliKNCXyptgqzoF%2FHi-Fi%3Fnode-id%3D1%253A3%26starting-point-node-id%3D1%253A3" allowfullscreen title="Heyfood" className="iframe-heyfood"></iframe>
+        <p>This is a video illustrating how a user might interact with our Heyfood prototype!</p>
+        <img src={process.env.PUBLIC_URL + "/assets/Heyfood gif.gif"} className="heyfood-gif" />
       </div>
       <ScrollToTop />
     </motion.div>

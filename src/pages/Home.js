@@ -49,7 +49,7 @@ const Home = () => {
                         <div className="highlight-text">
                             <h3>Bread and Butter</h3>
                             <p>Bread and Butter is your local bake shop with an online marketplace to browse for your favorite gourmet breads and butters.</p>
-                            <p>Project includes: branding, user experience, and user interface.</p>
+                            <p>Project includes: user experience and user interface.</p>
                             <NavLink to='/portfolio/design/bread-and-butter' onClick={() => window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })}>
                                 <Button text={"Take a look!"} />
                             </NavLink>

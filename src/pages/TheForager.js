@@ -14,7 +14,7 @@ const TheForager = () => {
         <img src={process.env.PUBLIC_URL + "/assets/Forager Banner.png"} className="banner" />
         <div className="banner-text" style={{ right: 80, top: 250 }}>
           <h3>The Forager Zine</h3>
-          <h5>UX & UI</h5>
+          <h5>Branding, UX & UI</h5>
         </div>
       </div>
       <div className="section-container">

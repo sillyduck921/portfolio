@@ -392,7 +392,7 @@ button:hover {
 }
 
 .lo-fi-image {
-  width: 100%;
+  width: 70%;
 }
 
 .old-gcb {
@@ -441,20 +441,20 @@ button:hover {
 }
 
 .gcb-image-desktop {
-  width: 90%;
-  border-radius: 15px;
+  width: 530px;
+  border-radius: 10px;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
 }
 
 .gcb-image-tablet {
-  width: 70%;
-  border-radius: 20px;
+  width: 380px;
+  border-radius: 10px;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
 }
 
 .gcb-image-mobile {
-  width: 50%;
-  border-radius: 30px;
+  width: 200px;
+  border-radius: 10px;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
 }
 
@@ -530,17 +530,50 @@ button:hover {
   border-radius: 60px;
 }
 
-.iframe-heyfood {
-  width: 50%;
-  height: 1000px;
-  border-radius: 10px;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-  border: none;
-}
-
 .scroll-container {
   display: flex;
   padding: 40px 80px;
   align-items: center;
   justify-content: flex-end;
+}
+
+.maple-image {
+  width: 400px;
+  border-radius: 20px;
+  margin-right: 100px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+}
+
+.pink-section-container {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 40px;
+  background-color: #C38D9E;
+}
+
+.bread-gif {
+  width: 395px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+}
+
+.gcb-gif-desktop {
+  width: 530px;
+}
+
+.gcb-gif-tablet {
+  width: 380px;
+  border-radius: 21px;
+}
+
+.gcb-gif-mobile {
+  width: 200px;
+  border-radius: 29px;
+}
+
+.heyfood-gif {
+  width: 300px;
 }
