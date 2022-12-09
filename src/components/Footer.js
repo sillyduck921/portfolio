@@ -5,13 +5,16 @@ const Footer = () => {
     return (
         <nav className="footer-container">
             <div>
-                <a href="https://www.google.com/" className="link">FACEBOOK</a>
+                <a href="https://www.facebook.com/" className="link" onClick={(e) => 
+          e.preventDefault()}>FACEBOOK</a>
             </div>
             <div>
-                <a href="https://www.google.com/" className="link">INSTAGRAM</a>
+                <a href="https://www.instagram.com/" className="link" onClick={(e) => 
+          e.preventDefault()}>INSTAGRAM</a>
             </div>
             <div>
-                <a href="https://www.google.com/" className="link">LINKEDIN</a>
+                <a href="https://www.linkedin.com/" className="link" onClick={(e) => 
+          e.preventDefault()}> LINKEDIN</a>
             </div>
         </nav>
     );

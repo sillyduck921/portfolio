@@ -10,11 +10,14 @@ import Heyfood from "./Heyfood";
 import TheForager from "./TheForager";
 import GradCenterBar from "./GradCenterBar";
 import MailKiosk from "./MailKiosk";
+import Navbar from "../components/Navbar";
 
 function AnimatedRoutes() {
   const location = useLocation();
 
   return (
+    <>
+    <Navbar location={location} />
     <AnimatePresence exitBeforeEnter>
         <Routes key={location.pathname} location={location}>
           <Route exact path='/portfolio' element={<Home />} />
@@ -28,6 +31,7 @@ function AnimatedRoutes() {
           <Route path='/portfolio/design/brown-mail-kiosk' element={<MailKiosk />} />
         </Routes>
       </AnimatePresence>
+      </>
   );
 }
 

@@ -25,7 +25,7 @@ const BreadAndButter = () => {
             </p>
             <p style={{ width: 600 }}>I designed and implemented a React app of an online marketplace, allowing Bread and Butter fanatics to search for and save their favorite treats.</p>
           </div>
-          <img src={process.env.PUBLIC_URL + "/assets/Maple Icon.png"} className="maple-image" />
+          <img src={process.env.PUBLIC_URL + "/assets/Bread Icon.png"} className="maple-image" />
         </div>
       </div>
       <div className="pink-section-container">

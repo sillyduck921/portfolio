@@ -7,13 +7,18 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding: 40px;
-  gap: 30px;
   position: sticky;
   top: 0;
   background-color: #FFFFFF;
   z-index: 2;
+}
+
+.tabs {
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
 }
 
 .link {
@@ -514,7 +519,7 @@ button:hover {
 }
 
 .maple-image {
-  width: 400px;
+  width: 300px;
   border-radius: 20px;
   margin-right: 100px;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
@@ -556,4 +561,18 @@ button:hover {
 
 .masonry {
   padding: 80px;
+}
+
+.duck {
+  width: 500px;
+}
+
+.link-not-active {
+  color: #ACACAC;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-size: 16px;
+  cursor: pointer;
 }
