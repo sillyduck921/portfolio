@@ -117,6 +117,14 @@ const Heyfood = () => {
         <p>This is a video illustrating how a user might interact with our Heyfood prototype!</p>
         <img src={process.env.PUBLIC_URL + "/assets/Heyfood gif.gif"} className="heyfood-gif" />
       </div>
+      <div className="teal-section-container">
+        <h2>Conclusions</h2>
+        <ul className="list-wrapper">
+          <li className="list">As a group project, working together to <b>gather and explore design ideas made our final product more robust</b></li>
+          <li className="list">Creating an interactive prototype in Figma allowed us to <b>understand how users would intereact with the real product without writing code</b></li>
+          <li className="list">Understanding the purpose of the product led to design decisions that made it <b>easier for users to view items and checkout</b></li>
+        </ul>
+      </div>
       <ScrollToTop />
     </motion.div>
   );

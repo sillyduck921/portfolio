@@ -60,6 +60,14 @@ const BreadAndButter = () => {
           <img src={process.env.PUBLIC_URL + "/assets/Bread gif 3.gif"} className="bread-gif"/>
         </div>
       </div>
+      <div className="pink-section-container">
+        <h2>Conclusions</h2>
+        <ul className="list-wrapper">
+          <li className="list"><b>Filtering and sorting</b> allows users to easily search for their favorite products</li>
+          <li className="list">The favorite button tracks the total price of all items on the favorites list</li>
+          <li className="list">By creating a React App, I explored how I could <b>accomplish different functions through React architecture and component setup</b></li>
+        </ul>
+      </div>
     </motion.div>
   );
 };

@@ -99,7 +99,7 @@ h4 {
 h5 {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
   letter-spacing: 0.06em;
   color: #FFFFFF;
 }
@@ -107,7 +107,7 @@ h5 {
 h6 {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
   letter-spacing: 0.06em;
   color: #000000;
 }
@@ -115,10 +115,10 @@ h6 {
 p {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   color: #000000;
   margin: 0;
-  line-height: 24px;
+  line-height: 26px;
 }
 
 .home-text {
@@ -225,7 +225,7 @@ button:hover {
   padding: 10px 30px;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
   color: #acacac;
 }
 
@@ -374,10 +374,10 @@ button:hover {
   padding: 4px;
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   color: #000000;
   margin: 0;
-  line-height: 24px;
+  line-height: 26px;
 }
 
 .list-wrapper {
@@ -442,11 +442,11 @@ button:hover {
 .link-white {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   color: #FFFFFF;
   text-decoration: none;
   margin: 0;
-  line-height: 24px;
+  line-height: 26px;
 }
 
 .link-white:hover {
@@ -471,9 +471,7 @@ button:hover {
 }
 
 .forager-image {
-  width: 40%;
-  height: 40%;
-  margin: 40px;
+  width: 100%;
   border-radius: 10px;
   box-shadow: 5px 5px 20px #ACACAC;
 }
