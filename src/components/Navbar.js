@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import '../App.css';
 
 function Navbar(props) {
-  const location = (props.location.pathname === "/portfolio")
+  const location = (props.location.pathname === "/portfolio" || props.location.pathname === "/portfolio/")
   const [isActive, setIsActive] = useState(location);
 
   useEffect(() => {
