@@ -31,26 +31,26 @@ const Home = () => {
                     HIGHLIGHTS
                 </h1>
                 <div className="highlight-card-right">
-                    <img src={process.env.PUBLIC_URL + "/assets/The Forager Highlight.png"} className="highlight-image" />
+                    <img src={process.env.PUBLIC_URL + "/assets/Heyfood Highlight.png"} className="highlight-image" />
                     <div className="highlight-text-left">
                         <div className="highlight-text">
-                            <h3>The Forager</h3>
-                            <p>The Forager is an environmental zine that celebrates the intersection of environmental themes and literary communications. </p>
-                            <p>Project includes: branding, user experience, and user interface.</p>
-                            <NavLink to='/portfolio/design/the-forager-zine' onClick={() => window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })}>
+                            <h3>Heyfood</h3>
+                            <p>Heyfood is a food delivery and pickup startup for the contintent of Africa. I designed a mobile app of their product and explored the design procress.</p>
+                            <p>Project includes: branding, user experience, user interface, and user testing</p>
+                            <NavLink to='/portfolio/design/heyfood' onClick={() => window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })}>
                                 <Button text={"Take a look!"} />
                             </NavLink>
                         </div>
                     </div>
                 </div>
                 <div className="highlight-card-left">
-                    <img src={process.env.PUBLIC_URL + "/assets/Bread and Butter Highlight.png"} className="highlight-image" />
+                    <img src={process.env.PUBLIC_URL + "/assets/GCB Highlight.png"} className="highlight-image" />
                     <div className="highlight-text-right">
                         <div className="highlight-text">
-                            <h3>Bread and Butter</h3>
-                            <p>Bread and Butter is your local bake shop with an online marketplace to browse for your favorite gourmet breads and butters.</p>
+                            <h3>Grad Center Bar</h3>
+                            <p>The Grad Center Bar (GCB) is an on-campus hub for 21+ students. I redesigned the original GCB website to improve usability and accessibility.</p>
                             <p>Project includes: user experience and user interface.</p>
-                            <NavLink to='/portfolio/design/bread-and-butter' onClick={() => window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })}>
+                            <NavLink to='/portfolio/design/grad-center-bar' onClick={() => window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })}>
                                 <Button text={"Take a look!"} />
                             </NavLink>
                         </div>
