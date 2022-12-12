@@ -14,10 +14,12 @@ const Illustration = () => {
         ILLUSTRATION
       </h1>
       <Masonry columnsCount={2} className="masonry" gutter="80px">
-      <img width="600" height="750" src={process.env.PUBLIC_URL + "/assets/Mars Hair.jpeg"} alt="" />
-        <img width="600" height="430" src={process.env.PUBLIC_URL + "/assets/Jellies.jpeg"} alt="" />
-        <img width="600" height="400" src={process.env.PUBLIC_URL + "/assets/Cherry Blossom.jpeg"} alt="" />
+        <img width="600" height="600" src={process.env.PUBLIC_URL + "/assets/Dog painting.jpeg"} alt="" />
         <img width="600" height="800" src={process.env.PUBLIC_URL + "/assets/Stairs.jpeg"} alt="" />
+        <img width="600" height="430" src={process.env.PUBLIC_URL + "/assets/Jellies.jpeg"} alt="" />
+        <img width="600" height="600" src={process.env.PUBLIC_URL + "/assets/Snowball.jpeg"} alt="" />
+        <img width="600" height="400" src={process.env.PUBLIC_URL + "/assets/Cherry Blossom.jpeg"} alt="" />
+        <img width="600" height="750" src={process.env.PUBLIC_URL + "/assets/Mars Hair.jpeg"} alt="" />
         <img width="600" height="480" src={process.env.PUBLIC_URL + "/assets/Collage.jpeg"} alt="" />
       </Masonry>
     </motion.div>
