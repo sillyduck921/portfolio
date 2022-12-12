@@ -21,7 +21,7 @@ const GradCenterBar = () => {
                 <div className="row" style={{ gap: 40 }}>
                     <div className="column" style={{ gap: 40 }}>
                         <h2>About</h2>
-                        <p><a href="https://www.gcbpvd.org/" target="_blank" className="link" style={{ letterSpacing: 0, fontSize: 18 }} >The Grad Center Bar (GCB)</a> is an on-campus hub for 21+ students to spend time with friends,
+                        <p><a href="https://www.gcbpvd.org/" target="_blank" className="link" style={{ letterSpacing: 0, fontSize: 20 }} >The Grad Center Bar (GCB)</a> is an on-campus hub for 21+ students to spend time with friends,
                             play a few rounds of pool, and enjoy the ambiance of the eclectic space.</p>
                         <p>I chose to redesign
                             the GCB website because of its <b>confusing layout</b> and <b>hard-to-read text</b>, making it difficult to
@@ -33,6 +33,7 @@ const GradCenterBar = () => {
             </div>
             <div className="burnt-orange-section-container">
                 <h2>Usability Issues</h2>
+                <p>First, I analyzed the usability issues of the original GCB website to understand weaknesses to address in my redesign.</p>
                 <div className="row" style={{ gap: 20 }}>
                     <div className="column">
                         <h5>LEARNABILITY</h5>
@@ -113,7 +114,7 @@ const GradCenterBar = () => {
             </div>
             <div className="burnt-orange-section-container">
                 <h2>Redesign</h2>
-                <p>The <a href="https://sillyduck921.github.io/gcb-redesign/" target={"_blank"} className="link-white" >redesigned GCB website</a> incorporates solutions to usability and accessibility issues while being a responsive design for numerous device sizes.</p>
+                <p>Using the hi-fi prototype as a guide, I implemented my redesigned website for the GCB using HTML and CSS. The <a href="https://sillyduck921.github.io/gcb-redesign/" target={"_blank"} className="link-white" >redesigned GCB website</a> incorporates solutions to usability and accessibility issues while being a responsive design for numerous device sizes.</p>
                 <div className="row" style={{ gap: 50 }} >
                     <div className="column">
                         <h5>DESKTOP</h5>

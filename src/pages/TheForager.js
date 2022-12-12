@@ -23,7 +23,7 @@ const TheForager = () => {
           <div className="column" style={{ gap: 40 }}>
             <h2>About</h2>
             <p>The Forager is an environmental zine on Brown & RISD's campuses that celebrates the <b>intersection of environmental themes and literary communications.</b></p>
-            <p>We believe storytelling through various mediums such as journalistic pieces, poems, illustrations, or short stories is a fundamental pillar of environmentalism and environmental justice. Our intention is to create a welcoming space for <b>those curious and passionate about the environment</b> to share their ideas with the College Hill community.</p>
+            <p>We believe storytelling through various mediums is a fundamental pillar of environmentalism and environmental justice. Our intention is to create a welcoming space for <b>those curious and passionate about the environment</b> to share their ideas with the College Hill community.</p>
             <p>I co-founded the club, led the design process of the website, established The Forager's brand, and implemented the online publication.</p>
           </div>
           <img src={process.env.PUBLIC_URL + "/assets/Forager About.png"} className="forager" />
@@ -31,6 +31,7 @@ const TheForager = () => {
       </div>
       <div className="blue-section-container">
         <h2>Goals</h2>
+        <p>Before designing and implementing the website, the other co-founders and I brainstormed goals for the online publication. These goals are meant to guide our design decisions to better engage users.</p>
         <div className="row" style={{ gap: 20 }}>
           <div className="column">
             <h5>ENGAGEMENT</h5>
@@ -62,7 +63,7 @@ const TheForager = () => {
       </div>
       <div className="section-container">
         <h2>Publication</h2>
-        <p><a href="https://www.theforagerzine.com/" target={"_blank"} className="link" style={{ letterSpacing: 0, fontSize: 18 }}>The Forager</a> website aims to engage readers by making the website easy to use and accessible.</p>
+        <p>To make it easier to renew the domain, the website is hosted on Squarespace. Instead of mocking up prototypes in Figma, I played around with the different built-in tools Squarespace has to offer, only to end up injecting my own HTML code in many parts of the website.<a href="https://www.theforagerzine.com/" target={"_blank"} className="link" style={{ letterSpacing: 0, fontSize: 20}}>The Forager</a> website aims to engage readers by making the website easy to use and accessible. </p>
         <Masonry columnsCount={2} className="masonry" gutter="50px">
           <img src={process.env.PUBLIC_URL + "/assets/Forager 1.png"} className="forager-image" />
           <img src={process.env.PUBLIC_URL + "/assets/Forager 2.png"} className="forager-image" />
@@ -76,9 +77,8 @@ const TheForager = () => {
         <h2>Conclusions</h2>
         <ul className="list-wrapper">
           <li className="list">Since The Forager is an online publication with weekly new articles and illustrations, I created a design that would <b>allow new content to be easily added</b></li>
-          <li className="list">Choosing a neutral color scheme and font lets the content stand out</li>
-          <li className="list"><b>The navigation bar</b> at the top of the page allows users to easily transition from one page to another</li>
-          <li className="list">Grid-like article and illustration pages <b>highlight content in an organized structure</b> such that users can easily engage with the publication</li>
+          <li className="list"><b>Brainstorming and outlining the publication's goals</b> as the first step of the design process <b>allowed the rest of the process to flow more seemlessly</b></li>
+          <li className="list">Exploring different formats of the landing page <b>inspired a more innovative design that immediately grabs the user's attention</b></li>
         </ul>
       </div>
       <ScrollToTop />

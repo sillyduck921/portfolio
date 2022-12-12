@@ -29,10 +29,13 @@ const MailKiosk = () => {
                     users to type in their Brown ID or swipe their physical Brown ID card. Users have the option
                     to pick up their mail either now or later. The kiosk simplifies the mail pick-up process, as
                     students need only to swipe their ID card to determine which packages have arrived to pick up.</p>
+                    <p>The mailroom is one of the most visited locations on campus day after day. Therefore, <b>having an efficient pick-up system is integral to maintaining the flow of students getting their mail.</b> I 
+                        chose to analyze the <b>strengths and weaknesses</b> of the kiosk in hopes of identifying ways to improve the system.
+                    </p>
             </div>
             <div className="orange-section-container">
                 <h2>User Research</h2>
-                <p>I observed how people interacted with the kiosk and randomly interviewed some to understand <b>highlights</b> and <b>drawbacks</b> of the interface. </p>
+                <p>First, I observed how people interacted with the kiosk and randomly interviewed some to understand <b>highlights</b> and <b>drawbacks</b> of the interface. </p>
                 <div className="row" style={{ gap: 50 }}>
                     <div className="column">
                         <h5>OBSERVATIONS</h5>
